@@ -1,0 +1,17 @@
+<h3>资源使用状态信息</h3>
+<div id="topology" style="background-color: white; text-align: left; float: left  " class="container1">
+
+<ul class="resources">
+  <p>
+    <span class="badgeL">链路</span>
+    <span class="badgeW">波长剩余</span>
+    <span class="badgeK">密钥剩余</span>
+  </p>
+  <li *ngFor="let resource of resources">
+    <span class="badgeL">{{resource.sourceNode}}-{{resource.destinationNode}}</span>
+    <span class="badgeW">{{resource.wavelengthReserved}}</span>
+    <span class="badgeK">{{resource.keyReserved}}</span>
+  </li>
+</ul>
+</div>
+<app-public-component class="app-public-component"></app-public-component>

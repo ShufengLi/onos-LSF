@@ -1,0 +1,57 @@
+
+
+img{
+   max-width: 300px;
+   max-height: 200px;
+}
+ .container1{
+   float: left;
+   width: 26%;
+
+ }
+
+.container1 .container_inside1{
+  float: top;
+  height: 40%;
+   padding-left: 20px;
+  font-size: 18px;
+}
+.container1 .container_inside2{
+  float: top;
+  height: 40%;
+  padding-left: 20px;
+ font-size: 20px;
+}
+.container1 .container_inside2 img{
+ max-width: 500px;
+   max-height: 600px;
+}
+.font-quantum{
+  background-color: white;
+  text-align: center;
+  font-size: 22px;
+}
+h3{
+  background-color: white;
+  text-align: center;
+  font-size: 22px;
+}
+h4{
+  float: left;
+}
+.container1 .container_inside1 .topology-type{
+  float: left;
+  font-size: 23px;
+}
+select{
+      width: 180px;
+  height: 25px;
+}
+select input{
+   width: 180px;
+  height: 25px;
+}
+.container1 .container_inside1 .simulation{
+      width: 160px;
+  height: 30px;
+}

@@ -1,0 +1,27 @@
+
+<!--  拓扑图-->
+    <h3>拓扑及初始化信息</h3>
+     <div id="Initial Network Resource" class="font-quantum">
+      请进行参数设置，并根据以下参数进行仿真
+  </div>
+<br>
+    <div class="container1" >
+      <div class="container_inside1" >
+  <li >选择拓扑<select name="topology-type" id="topology-type" >
+      <option [value]="item" *ngFor="let item of topology_type">{{item}}</option>
+      </select>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    </li><br>
+      <li >输入密钥量<input type="text" id="Key number"value="100" />bit &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    </li><br>
+      <li >输入业务量<input type="text" id="service size"value="80000" />Erlang
+    </li><br>
+      <li >参数选取后开始仿真 <button style="background-color: coral" class="simulation">仿真</button>
+    </li><br><br><br><br>
+      </div>
+        <div class="container_inside2" >
+          初始化信息：<br><br>
+          <img src="assets\img\QKD3.png"/>
+      </div>
+    </div>
+    <!--  看D3源码-->
+<app-public-component></app-public-component>

@@ -1,0 +1,27 @@
+h3{
+  background-color: white;
+  text-align: center;
+  font-size: 22px;
+}
+.container1{
+   float: left;
+   width: 26%;
+
+ }
+
+.container1 .container_inside1{
+  float: top;
+  height: 40%;
+   padding-left: 20px;
+  font-size: 18px;
+}
+.container1 .container_inside2{
+  float: top;
+  height: 40%;
+  padding-left: 20px;
+ font-size: 20px;
+}
+.container1 .container_inside2 img{
+ max-width: 500px;
+   max-height: 600px;
+}
